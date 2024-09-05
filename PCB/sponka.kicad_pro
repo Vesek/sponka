@@ -618,27 +618,11 @@
   "sheets": [
     [
       "cd633adc-49f5-4b4f-8d72-c74316356641",
-      "Root"
+      "Hlavní"
     ],
     [
       "059eed50-6267-4cf5-8368-3ab59d67dd86",
       "LED Row"
-    ],
-    [
-      "d2e06ce2-9630-4b7d-b155-a829ba150f4a",
-      "LED Row1"
-    ],
-    [
-      "c3781cf7-1152-4f56-8b09-de0dfbbf6436",
-      "LED Row2"
-    ],
-    [
-      "614d6bbf-23a4-45a8-8c74-0e0c9d9776ac",
-      "LED Row3"
-    ],
-    [
-      "4b2d718f-dc9f-4a7b-adce-ffa957f22768",
-      "LED Row4"
     ],
     [
       "0a587446-9d59-4f6f-9f4c-a6bc7b3f34e8",
