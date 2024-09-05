@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "wch_mcu")(type "KiCad")(uri "/home/vasek/Downloads/wch_mcu.kicad_sym")(options "")(descr ""))
+  (lib (name "WCH")(type "KiCad")(uri "/home/vasek/Downloads/WCH.kicad_sym")(options "")(descr ""))
+)
