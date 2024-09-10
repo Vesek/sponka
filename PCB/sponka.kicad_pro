@@ -182,7 +182,9 @@
         0.1,
         0.15,
         0.2,
-        0.25
+        0.25,
+        0.3,
+        0.4
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -618,7 +620,7 @@
   "sheets": [
     [
       "cd633adc-49f5-4b4f-8d72-c74316356641",
-      "Hlavní"
+      "Root"
     ],
     [
       "059eed50-6267-4cf5-8368-3ab59d67dd86",

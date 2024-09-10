@@ -2,3 +2,4 @@
 gerber/
 *.step
 *.csv
+bom/

@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "wch_mcu")(type "KiCad")(uri "/home/vasek/Downloads/wch_mcu.kicad_sym")(options "")(descr ""))
   (lib (name "WCH")(type "KiCad")(uri "/home/vasek/Downloads/WCH.kicad_sym")(options "")(descr ""))
+  (lib (name "sponka")(type "KiCad")(uri "${KIPRJMOD}/sponka.kicad_sym")(options "")(descr ""))
 )
