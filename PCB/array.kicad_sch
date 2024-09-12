@@ -376,12 +376,6 @@
 		)
 	)
 	(junction
-		(at 92.71 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c88b496-d08f-4950-b333-0e7cac6ccd41")
-	)
-	(junction
 		(at 97.79 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -422,12 +416,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eac26c86-0f88-4a60-9f3c-8300dbccbabb")
-	)
-	(junction
-		(at 72.39 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eda80e95-fae2-496a-8b60-4e35d5d98b87")
 	)
 	(junction
 		(at 143.51 93.98)
@@ -484,16 +472,6 @@
 			(type default)
 		)
 		(uuid "17ae6b47-2e63-4536-8560-1ff6bf49bc44")
-	)
-	(wire
-		(pts
-			(xy 68.58 93.98) (xy 92.71 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "211c29fe-5eee-4c48-9c97-0c28fa62b5cf")
 	)
 	(wire
 		(pts
@@ -567,7 +545,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 118.11 93.98)
+			(xy 68.58 93.98) (xy 118.11 93.98)
 		)
 		(stroke
 			(width 0)
@@ -594,26 +572,6 @@
 			(type default)
 		)
 		(uuid "6595c809-5313-4152-bc25-c311ae17b5a1")
-	)
-	(wire
-		(pts
-			(xy 95.25 87.63) (xy 97.79 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6667c004-c955-466c-834b-2569a67cceab")
-	)
-	(wire
-		(pts
-			(xy 72.39 85.09) (xy 72.39 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a4f839b-670a-487e-b69f-ca2ecce114ef")
 	)
 	(wire
 		(pts
@@ -664,16 +622,6 @@
 			(type default)
 		)
 		(uuid "750fb3fb-e16a-4202-9c6c-055adcaf8b98")
-	)
-	(wire
-		(pts
-			(xy 92.71 87.63) (xy 92.71 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "766cab21-0ac0-46d8-b3f5-ce6c3f2cf3c2")
 	)
 	(wire
 		(pts
@@ -757,26 +705,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 78.74) (xy 97.79 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58930b1-306f-42cf-8c8e-d6eb0534e1ac")
-	)
-	(wire
-		(pts
-			(xy 95.25 85.09) (xy 95.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d17c2498-405d-4bb0-b18c-af75eaff7648")
-	)
-	(wire
-		(pts
 			(xy 171.45 85.09) (xy 171.45 87.63)
 		)
 		(stroke
@@ -827,23 +755,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 72.39 78.74)
+			(xy 68.58 78.74) (xy 97.79 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f1dd45e4-fefa-446c-a3f7-f66c0b6798d3")
-	)
-	(wire
-		(pts
-			(xy 92.71 85.09) (xy 95.25 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f95736b2-2b73-4af5-bd24-e5965802c9af")
 	)
 	(wire
 		(pts
@@ -1160,89 +1078,6 @@
 			(project ""
 				(path "/cd633adc-49f5-4b4f-8d72-c74316356641/059eed50-6267-4cf5-8368-3ab59d67dd86"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "sponka:WS2812B-MINI")
-		(at 82.55 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "984fba64-0b3b-4161-b32f-74d338cf698e")
-		(property "Reference" "LED6"
-			(at 82.55 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B-MINI"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "sponka:LED-SMD_4P-L3.5-W3.5-TL_WS2812B"
-			(at 82.55 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Worldsemi-WS2812B-Mini_C527089.html"
-			(at 82.55 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C527089"
-			(at 82.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3eabbf2f-1506-4ab1-a47f-17b51de3e2eb")
-		)
-		(pin "4"
-			(uuid "b85ec04d-8e7c-4d14-a835-bb039d21abb9")
-		)
-		(pin "3"
-			(uuid "a458229c-89d2-4a9a-8f53-b7bd82473bd9")
-		)
-		(pin "1"
-			(uuid "9c1ff035-1327-4b15-b1dc-bf311055b56f")
-		)
-		(instances
-			(project ""
-				(path "/cd633adc-49f5-4b4f-8d72-c74316356641/059eed50-6267-4cf5-8368-3ab59d67dd86"
-					(reference "LED6")
 					(unit 1)
 				)
 			)
