@@ -3,3 +3,4 @@ gerber/
 sponka.step
 *.csv
 bom/
+fp-info-cache

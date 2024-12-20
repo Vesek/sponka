@@ -1707,7 +1707,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 87.63) (xy 154.94 87.63)
+			(xy 168.91 87.63) (xy 163.83 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1797,6 +1797,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 87.63) (xy 154.94 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "365ddf47-36fa-4023-b97f-ac1e4ff32b10")
+	)
+	(wire
+		(pts
 			(xy 105.41 53.34) (xy 105.41 86.36)
 		)
 		(stroke
@@ -1877,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 85.09) (xy 154.94 85.09)
+			(xy 166.37 85.09) (xy 163.83 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2174,6 +2184,16 @@
 			(type default)
 		)
 		(uuid "c5c72ee7-0080-4ad5-a034-83e1497a529b")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 154.94 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7705ef0-a307-432f-8fb8-398b90c308ba")
 	)
 	(wire
 		(pts
@@ -2760,6 +2780,73 @@
 			(project ""
 				(path "/cd633adc-49f5-4b4f-8d72-c74316356641"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 161.29 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80b70168-c498-4b34-8981-e15c41603554")
+		(property "Reference" "R3"
+			(at 164.592 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 168.402 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 161.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2605693c-f9ce-438c-950c-aeadf2c2a430")
+		)
+		(pin "2"
+			(uuid "70f66b32-4efe-4caf-a283-7bbfa113cd2d")
+		)
+		(instances
+			(project "sponka"
+				(path "/cd633adc-49f5-4b4f-8d72-c74316356641"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -3440,6 +3527,73 @@
 			(project "sponka"
 				(path "/cd633adc-49f5-4b4f-8d72-c74316356641"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 161.29 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9435316-876d-46cd-bb66-ed84b61df98a")
+		(property "Reference" "R4"
+			(at 164.592 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33"
+			(at 168.148 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 161.29 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39fbebed-5462-4cad-aec0-89e0a6a7dcf9")
+		)
+		(pin "2"
+			(uuid "8fd073fd-4809-4853-9866-39e3b25eba5b")
+		)
+		(instances
+			(project "sponka"
+				(path "/cd633adc-49f5-4b4f-8d72-c74316356641"
+					(reference "R4")
 					(unit 1)
 				)
 			)
