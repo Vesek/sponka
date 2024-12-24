@@ -32,13 +32,15 @@
 		(stackup
 			(layer "F.SilkS"
 				(type "Top Silk Screen")
+				(color "White")
+				(material "Direct Printing")
 			)
 			(layer "F.Paste"
 				(type "Top Solder Paste")
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
-				(color "Yellow")
+				(color "#DD8500CC")
 				(thickness 0.0275)
 			)
 			(layer "F.Cu"
@@ -59,7 +61,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
-				(color "Yellow")
+				(color "#DD8500CC")
 				(thickness 0.0275)
 			)
 			(layer "B.Paste"
@@ -67,6 +69,8 @@
 			)
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
+				(color "White")
+				(material "Direct Printing")
 			)
 			(copper_finish "None")
 			(dielectric_constraints no)
@@ -4084,7 +4088,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RED_LED"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "197b5328-d5f3-4254-8431-83ad103f7d0b")
@@ -8895,7 +8899,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2k"
+		(property "Value" "1.5k"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "19749df5-b4c7-473c-9918-47598ed23f06")
