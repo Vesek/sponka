@@ -4524,7 +4524,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED_LED"
+		(property "Value" "GREEN_LED"
 			(at 132.08 91.186 0)
 			(effects
 				(font
@@ -5528,7 +5528,7 @@
 				)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "150"
 			(at 127 91.44 90)
 			(effects
 				(font
