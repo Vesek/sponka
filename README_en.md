@@ -1,4 +1,4 @@
-[English README](/README_en.md)
+[Czech README](/README.md)
 # sponka
 RGB hairclip, built for a flex PCB
 ### ***very work in progress***
