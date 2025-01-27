@@ -4,3 +4,9 @@ sponka.step
 *.csv
 bom/
 fp-info-cache
+*.bin
+*.elf
+*.hex
+*.lst
+*.map
+compile_commands.json
